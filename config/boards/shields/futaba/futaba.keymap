@@ -65,6 +65,17 @@
     };
 };
 
+&trackball_listener {
+    warp {
+        layers = <ONE>;
+        input-processors = <&zip_xy_scaler 2 1>;
+    };
+    precision {
+        layers = <TWO>;
+        input-processors = <&zip_xy_scaler 1 4>;
+    };
+};
+
 / {
     behaviors {
         rot_kp: sensor_rotate_kp {
