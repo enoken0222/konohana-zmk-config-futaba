@@ -123,9 +123,9 @@
         default_layer {
             bindings = <
                 &mo 1 &mo 2  &mo 5 &mo 6
-                &mo 3 &kp LALT  &mo 7 &mo 8
+                &mo 3 &bt BT_CLR_ALL  &mo 7 &mo 8
             >;
-            sensor-bindings = <&uldr_move>;
+            sensor-bindings = <&uldr_move>, <&uldr_move>;
         };
 
         ONE {
@@ -133,7 +133,7 @@
                 &kp N1     &kp LCTRL  &kp N1     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&uldr_move>;
+            sensor-bindings = <&uldr_move>, <&uldr_move>;
         };
 
         TWO {
@@ -141,7 +141,7 @@
                 &kp N2     &kp LCTRL  &kp N2     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&uldr_move>;
+            sensor-bindings = <&uldr_move>, <&uldr_move>;
         };
 
         THREE {
@@ -149,7 +149,7 @@
                 &kp N3     &kp LCTRL  &kp N3     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&mouse_scrl SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&mouse_scrl SCRL_LEFT SCRL_RIGHT>, <&mouse_scrl SCRL_LEFT SCRL_RIGHT>;
         };
 
         FOUR {
@@ -157,7 +157,7 @@
                 &kp N4     &kp LCTRL  &kp N4     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&rot_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp PG_UP PG_DN>, <&rot_kp PG_UP PG_DN>;
         };
 
         FIVE {
@@ -165,7 +165,7 @@
                 &kp N5     &kp LCTRL  &kp N5     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&rot_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp PG_UP PG_DN>, <&rot_kp PG_UP PG_DN>;
         };
 
         SIX {
@@ -173,7 +173,7 @@
                 &kp N6     &kp LCTRL  &kp N6     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&rot_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp PG_UP PG_DN>, <&rot_kp PG_UP PG_DN>;
         };
 
         SEVEN {
@@ -181,7 +181,7 @@
                 &kp N7     &kp LCTRL  &kp N7     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&rot_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp PG_UP PG_DN>, <&rot_kp PG_UP PG_DN>;
         };
 
         EIGHT {
@@ -189,8 +189,7 @@
                 &kp N8     &kp LCTRL  &kp N8     &kp LCTRL
                 &kp LSHIFT &kp LALT   &kp LSHIFT &kp LALT
             >;
-            sensor-bindings = <&rot_kp PG_UP PG_DN>;
+            sensor-bindings = <&rot_kp PG_UP PG_DN>, <&rot_kp PG_UP PG_DN>;
         };
-
     };
 };
