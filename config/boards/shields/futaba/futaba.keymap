@@ -122,8 +122,8 @@
 
         default_layer {
             bindings = <
-                &mo 1 &mo 2  &mo 5 &mo 6
-                &mo 3 &bt BT_CLR_ALL  &mo 7 &mo 8
+                &mo 1 &mo 2  &mo 3 &mo 4
+                &mkp LCLK &mkp RCLK  &mo LALT &bt BT_CLR_ALL
             >;
             sensor-bindings = <&uldr_move>, <&uldr_move>;
         };
