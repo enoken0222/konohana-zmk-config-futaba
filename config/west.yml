@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sayu-hub
-      url-base: https://github.com/sayu-hub
+    - name: enoken0222
+      url-base: https://github.com/enoken0222/zmk-pmw3610-driver
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: sayu-hub
+      remote: enoken0222
       revision: main
   self:
     path: config
