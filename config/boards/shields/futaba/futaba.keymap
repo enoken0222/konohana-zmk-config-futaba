@@ -68,7 +68,7 @@ keymap {
             >;
         };
         layer_2 {
-            display-name = "Layer 2”;
+            display-name = "Layer 2";
             bindings = <
                            &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp N1 &kp N2 &kp N3 &kp N0 &none
                            &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp N4 &kp N5 &kp N6 &kp KP_PLUS &kp KP_MINUS
@@ -77,7 +77,7 @@ keymap {
             >;
         };
         layer_3 {
-            display-name = "Layer 3”;
+            display-name = "Layer 3";
             bindings = <
                            &none &none &none &none &none &kp RC(LEFT) &kp HOME &kp UP &kp END &kp RC(RIGHT)
                            &none &none &none &none &none &kp RC(RG(LEFT)) &kp LEFT &kp DOWN &kp RIGHT &kp RC(RG(RIGHT))
@@ -95,7 +95,7 @@ keymap {
             >;
         };
        scroll { // scroll Layer
-            display-name = “scroll Layer ”;
+            display-name = "scroll Layer";
             bindings = <
                            &none &none &none &none &none &none &none &none &none &none
                            &none &none &none &none &none &none &none &none &none &none
@@ -104,7 +104,7 @@ keymap {
             >;
         };
         temporary { // temporary Layer
-            display-name = "temporary Layer”;
+            display-name = "temporary Layer";
             bindings = <
                            &none &none &none &none &none &none &none &none &none &none
                            &none &none &none &none &none &none &none &none &none &none
@@ -113,7 +113,7 @@ keymap {
             >;
         };
         snipe { // snipe Layer
-            display-name = “snipe Layer”;
+            display-name = "snipe Layer";
             bindings = <
                            &none &none &none &none &none &none &none &none &none &none
                            &none &none &none &none &none &none &none &none &none &none
