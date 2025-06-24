@@ -110,7 +110,7 @@ keymap {
                            &none &none &none &none &none &none &none &none &none &none
                            &none &none &none &none &none &none &none &none &none &none
                            &none &none &none &none &none &none &none &mkp LCLK &mkp RCLK &none
-                           &none &none &none &none &none &mo 12 &none &none &none &none
+                           &none &none &none &none &none &mo snipe &none &none &none &none
             >;
         };
         snipe { // snipe Layer
