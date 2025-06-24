@@ -22,7 +22,7 @@
             key-positions = <34 35>;
             bindings = <&mo 4>;
             slow-release
-  
+        };
         combo_scroller {
             layers = <0 11>;
             timeout-ms = <50>;
