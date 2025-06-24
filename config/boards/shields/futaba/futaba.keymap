@@ -82,8 +82,8 @@ keymap {
             bindings = <
                            &none &none &none &none &none &kp RC(LEFT) &kp HOME &kp UP &kp END &kp RC(RIGHT)
                            &none &none &none &none &none &kp RC(RG(LEFT)) &kp LEFT &kp DOWN &kp RIGHT &kp RC(RG(RIGHT))
-                           &none &none &none &none &none &kp none &kp none &none &kp none &kp none
-                           &none &none &none &none &none &none &none &kp . &none &none
+                           &none &none &none &none &none &none &none &none &none &none
+                           &none &none &none &none &none &none &none &none &none &none
             >;
         };
         layer_4 {
