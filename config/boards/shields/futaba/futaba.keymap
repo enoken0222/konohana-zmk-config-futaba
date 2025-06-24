@@ -17,14 +17,14 @@
         compatible = "zmk,combos";
 
         combo_layer4 {
-　　　  layers = <0 1 2>
+            layers = <0 1 2>
             timeout-ms = <50>;
             key-positions = <34 35>;
             bindings = <&mo 4>;
             slow-release  
 
         combo_scroller {
-　　　  layers = <0 11>
+            layers = <0 11>
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&mo 10>;
@@ -37,12 +37,14 @@
     input-processors = <&zip_xy_scaler 3 2>, <&zip_temp_layer 11 2000>; 
 
     scroller { 
-        layers = <10>; // Scroll layer 
-       input-processors = <&zip_xy_to_scroll_mapper>; }; 
-
-   Snipe { 
-       layers = <12>; // Snipe layer 
-       input-processors = <&zip_xy_scaler 1 4>; }; };
+       layers = <10>;
+       input-processors = <&zip_xy_to_scroll_mapper>;
+    }; 
+    snipe { 
+       layers = <12>; 
+       input-processors = <&zip_xy_scaler 1 4>;
+    };
+ };
 
 keymap {
         compatible = "zmk,keymap";
