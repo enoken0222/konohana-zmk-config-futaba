@@ -4,13 +4,13 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #include <dt-bindings/zmk/pointing.h>
 
-#define scroll 10
-#define temporary 11
-#define snipe 12
+#define scroll 5
+#define temporary 6
+#define snipe 7
 
 / {
     combos {
@@ -91,7 +91,7 @@ keymap {
                            &none &none &none &none &none &none &none &none &none &none
             >;
         };
-        layer_11 { // temporary Layer
+        layer_6 { // temporary Layer
             display-name = "temporary Layer";
             bindings = <
                            &none &none &none &none &none &none &none &none &none &none
