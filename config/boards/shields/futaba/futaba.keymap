@@ -91,7 +91,7 @@ keymap {
                            &none &none &none &none &none &none &none &none &none &none
             >;
         };
-        temporary { // temporary Layer
+        layer_11 { // temporary Layer
             display-name = "temporary Layer";
             bindings = <
                            &none &none &none &none &none &none &none &none &none &none
